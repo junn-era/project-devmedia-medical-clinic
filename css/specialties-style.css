@@ -1,0 +1,91 @@
+.section-specialty {
+  margin-top: 40px;
+}
+
+.container-title {
+  padding: 0 20px;
+}
+
+.container-links-specialties {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.links-specialties{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.link-specialty{
+  text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid #00cad1;
+  margin: 0 10px 10px;
+  font-size: 18px;
+}
+
+.link-specialty:hover{
+  color: #0d6e71;
+}
+
+.box-table-specialist {
+  display: flex;
+  height: 240px;
+  padding: 0 20px;
+}
+
+.box-table-specialist img {
+  width: 30%;
+  height: 100%;
+}
+
+.table-specialists {
+  border-spacing: 0;
+  text-align: left;
+  width: 70%;
+  height: 100%;
+}
+
+.table-specialists thead tr {
+  background-color: #00cad1;
+  color: #fff;
+}
+
+.table-specialists tr {
+  background-color: #f1f1f1;
+  color: #585757;
+  font-weight: 500;
+}
+
+.table-specialists tbody tr:nth-of-type(2n+1) {
+  background-color: #cdcdcd;
+  border: 1px solid #f1f1f1;
+}
+
+.table-specialists th, .table-specialists td  {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .box-table-specialist img {
+    display: none;
+  }
+
+  .table-specialists {
+    width: 100%;
+  }
+
+  .box-table-specialist {
+    height: auto;
+    justify-content: center;
+  }
+}
+
+@media ( max-width: 425px) {
+  .box-table-specialist {
+    padding: 0;
+  }
+}

@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+main {
+    color: #0000008c;
+    margin-bottom: 60px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-title {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-title h2, .container-title h3 {
+    margin: 0;
+}
+
+/* Start CSS top */
+.top {
+    background-color: #00cad1;
+    width: 100%;
+}
+
+.top .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.top-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.top-title a {
+    display: flex;
+}
+
+.top-logo {
+    height: 60px;
+}
+
+.top-links {
+    display: flex;
+}
+
+.top-link {
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.top-link:hover {
+    color: #004b4c;
+}
+
+@media (max-width: 425px) {
+    .top .container { flex-direction: column; }
+    .top-title { margin: 10px 0; }
+    .top-links { 
+        width: 100%;
+        justify-content: space-around;
+        border-top: 1px solid #009fa5;
+     }
+}
+
+/*End CSS top*/
+
+/*Start CSS footer*/
+footer {
+    background-color: #0d6e71;
+    color: #fff;
+    padding: 20px;
+}
+
+footer .container {
+    text-align: center;
+}
+/*End CSS footer*/
